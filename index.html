@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertex Media</title>
+
+    <!--Framework CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/uikit.css">
+    <!--End Framwwork CSS -->
+
+    <!--Google Fonts-->
+    <link href='https://fonts.googleapis.com/css2?family=Inter&display=swap' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans:200,300,400,700,800,900&amp;subset=latin" rel="preload" as="font" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!--Google Fonts end-->
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Custom CSS end-->
+
+    <!--Framework JS-->
+    <script src="js/uikit.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <!--Framework JS end-->
+</head>
+
+<body>
+    <header>
+        <div class="uk-section uk-padding-remove-vertical in-header-inverse ">
+            <nav class="nav-bottom-border uk-navbar-container uk-navbar-transparent uk-sticky" data-uk-sticky="show-on-up: true; top: 60; animation: uk-animation-fade">
+                <div class="uk-navbar" data-uk-navbar="">
+                    <div class="uk-navbar-left uk-width-expand uk-flex uk-flex-between" height="70">
+                        <a class="uk-navbar-item uk-logo site-logo" href="index.html">
+                            <img src="img/Logo.svg" alt="logo" width="170" height="29">
+                        </a>
+                        <ul class="vt-nav uk-navbar-nav uk-visible@m">
+                            <li><a href="#" role="button" aria-haspopup="true">Home</a></li>
+                            <li><a href="#">Our products</a></li>
+                            <li><a href="#" role="button" aria-haspopup="true">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="uk-navbar-right uk-width-auto">
+                        <div class="uk-navbar-item uk-visible@m">
+                            <div class="nav-button in-optional-nav">
+                                <a href="#" class="uk-button uk-button-small uk-border-pill">Log in</a>
+                            </div>
+                        </div>
+                        <!--mobile screen-->
+                        <div class="uk-navbar-item uk-align-center in-mobile-nav uk-hidden@m mobile-bar">
+                            <a class="uk-button" href="#" id="toggle-menu-button" role="button">
+                                <i class="fas fa-bars"></i>
+                            </a>
+                            <div id="menu" class="hidden-menu">
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Our products</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                </ul>
+                                <a class="menu-button">Log in  <i class="fas fa-sign-in-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="uk-sticky-placeholder" style="height: 90px; width: 1277px; margin: 0px;" hidden=""></div>
+        </div>
+    </header>
+    <main class="site-main">
+        <section class="home-top-wrap home-top">
+            <div class="uk-position-center top-leaf"><img src="img/leaf.svg"></div>
+            <div class="uk-grid-collapse uk-child-width-expand@s uk-text-center uk-margin-large-top" uk-grid>
+                <div class="home-top-left uk-inline">
+                    <div class="welcome uk-position-center-right">
+                        <h1>Welcome.</h1>
+                    </div>
+                </div>
+                <div class="home-top-right uk-inline">
+                    <div class="uk-position-center-left">
+                        <h1>We bring<br>your ideas to life.</h1>
+                    </div>
+                    <div class="uk-position-center-left top-right-content">
+                        <p>Our goal is - to empower Innovation, we shape the pixels in the canvas. Creative professionals around the world are looking for quality content in one place, we dream it on our Marketplaces.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="home-section-2">
+            <div class="uk-container">
+                <div class="uk-child-width-1-2" uk-grid>
+
+                    <div class="create">
+                        <h3>Freedom to create.</h3>
+                        <p>Qualit, safety and exclusively...</p>
+                    </div>
+                    <div class="create-image">
+                        <img src="img/freedom.jpg" alt="logo">
+                    </div>
+                </div>
+
+
+            </div>
+            </div>
+            </div>
+            <!--4 content section-->
+            <div class="uk-container home-2-section">
+                <div class="uk-width-2xlarge uk-margin home-top2-four-icons" style="border: 0.3px solid rgb(206, 206, 206); background:white">
+                    <div class="uk-grid-divider uk-grid-collapse for-shadow" uk-grid>
+                        <div class="uk-width-1-2@m uk-width-1-1@s">
+                            <div class="uk-padding" uk-grid>
+                                <div class="uk-width-auto">
+                                    <img src="/img/quality.svg" alt="Image description">
+                                </div>
+                                <div class="uk-width-expand">
+                                    <h4>Only high<br>quality products</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-width-1-2@m uk-width-1-1@s">
+                            <div class="uk-padding" uk-grid>
+                                <div class="uk-width-auto">
+                                    <img src="/img/license.svg" alt="Image description" width="61" height="66">
+                                </div>
+                                <div class="uk-width-expand">
+                                    <h4>Exclusive<br> licensing</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-width-1-2@m uk-width-1-1@s">
+                            <div class="uk-padding" uk-grid>
+                                <div class="uk-width-auto">
+                                    <img src="/img/Securepayment.svg" alt="Image description" width="61" height="66">
+                                </div>
+                                <div class="uk-width-expand">
+                                    <h4>Secure<br>payment</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-width-1-2@m uk-width-1-1@s">
+                            <div class="uk-padding" uk-grid>
+                                <div class="uk-width-auto">
+                                    <img src="/img/Money back.svg" alt="Image description" width="61" height="66">
+                                </div>
+                                <div class="uk-width-expand">
+                                    <h4>100% money<br> back guarantee</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="freedom-content">
+                            <p>We review every single products to ensure high quality designs with editability. Covered by our lifetime personal and commercial exclusive license, so enjoy the freedom. Your transcation is completely Safe by SSL encryption
+                                for payments. No worry! you are fully protected by our 100% No-Risk Money Back Guarantee, if you aren't satisfied, e will refund your money.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+
+    </main>
+    <footer>
+        <p class="uk-heading-line uk-text-center uk-padding"><span>Copyright &copy;2023,powered by <img src="/img/footerLogo.svg"width="132" height="19">, United States</span></p>
+    </footer>
+    </div>
+
+</body>
+
+</html>
