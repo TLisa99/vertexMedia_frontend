@@ -76,7 +76,7 @@ header {
     position: absolute;
     top: 70%;
     right: 0;
-    background: #55a17bce;
+    background: #91c332d6;
     box-shadow: 0 4px 6px rgb(255 255 255 / 10%);
     z-index: 1;
     width: 300px;
@@ -97,7 +97,7 @@ header {
 }
 
 .menu-button:hover {
-    transition: background-color 0.7s;
+    transition: 3s all ease;
     background: linear-gradient(205deg, #ded26c 0%, #368240 100%);
     text-decoration: none;
     color: #000;
@@ -114,7 +114,10 @@ header {
 }
 
 .dropdown-menu li a {
-    color: #000;
+    color: #fff;
+}
+.menu-button{
+    color: #fff;
 }
 
 .nav-bottom-border {
@@ -140,7 +143,7 @@ header {
 }
 
 .home-top-left {
-    background-image: url("../img/Cmprs.svg");
+    background-image: url("../img/cmprs.jpg.jpg");
     background-size: cover;
     background-position: left top;
     width: 960px;
@@ -218,14 +221,22 @@ header {
     margin-top: -180px;
 }
 
-.for-shadow:hover {
+.home-top2-four-icons {
+    border: 0.3px solid rgb(206, 206, 206);
+    background: #fff;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.home-top2-four-icon-divider {
+    box-sizing: border-box;
+    border-bottom: 0.5px solid #d4d4d4;
 }
 
 .home-top2-four-icons h4 {
     font-size: 18px;
     font-weight: 700;
     color: #000;
+    padding-left: 20px;
 }
 
 .freedom-content p {
@@ -234,6 +245,101 @@ header {
     line-height: 20px;
     padding: 25px;
     border-top: 0.5px solid #d4d4d4;
+}
+.content-padding{
+    padding: 5px;
+}
+/**Home section-3**/
+.home-section-3{
+    background: #FAFAFA;
+    padding: 60px;
+}
+.home-3-upper-content{
+padding-bottom: 40px;
+}
+.home-3-upper-content h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+}
+.home-3-upper-content p{
+    font-size: 16px;
+    color: #A0A0A0;
+}
+.shadow-card:hover{
+    box-shadow: 5px 5px 10px rgba(59, 59, 59, 0.3);
+    transition: 1s all ease;
+}
+.shadow-card:hover .choose-button{
+    background-color: #91C332;
+    color: #ffffff;
+    transition: 1s all ease;
+}
+.shadow-card p{
+    font-size: 18px;
+    color: #000;
+}
+.choose-button{
+    background-color: #BEBEBE;
+    color: #ffffff;
+    border-radius: 23px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 6px 30px;
+}
+.shadow-card{
+    border-radius: 10px;
+}
+/**award section**/
+.award-upper-content{
+    padding: 40px;
+}
+.award-upper-content p{
+    font-size: 16px;
+    color: #A0A0A0;
+}
+.award-upper-content h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+}
+.award-section{
+    padding-bottom: 60px;
+    border-bottom: 0.5px solid rgb(211, 211, 211);
+}
+.award-2{
+    padding-top: 60px;
+}
+
+.award-4, .award-5{
+    padding-top: 25px;
+}
+
+/**gallery section**/
+.gallary-section{
+    padding: 40px;
+    margin: 0px -40px;
+}
+.gallery-upper-content{
+    padding: 30px;
+}
+.gallery-photo img{
+    border-radius: 10px;
+}
+.gallery-upper-content h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+}
+.gallery-upper-content p{
+    font-size: 16px;
+    color: #A0A0A0;
+}
+
+/**footer**/
+.footer img{
+    padding-bottom: 2px;
 }
 
 
