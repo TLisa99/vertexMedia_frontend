@@ -33,10 +33,10 @@
 <body>
     <header>
         <div class="uk-section uk-padding-remove-vertical in-header-inverse ">
-            <nav class="nav-bottom-border uk-navbar-container uk-navbar-transparent uk-sticky" data-uk-sticky="show-on-up: true; top: 60; animation: uk-animation-fade">
+            <nav class="nav-bottom-border uk-navbar-container uk-navbar-transparent uk-sticky uk-animation-fade" data-uk-sticky="show-on-up: true; top: 60; animation: uk-animation-fade">
                 <div class="uk-navbar" data-uk-navbar="">
                     <div class="uk-navbar-left uk-width-expand uk-flex uk-flex-between" height="70">
-                        <a class="uk-navbar-item uk-logo site-logo" href="index.html">
+                        <a class="uk-navbar-item uk-logo site-logo uk-animation-slide-lef" href="index.html">
                             <img src="img/Logo.svg" alt="logo" width="170" height="29">
                         </a>
                         <ul class="vt-nav uk-navbar-nav uk-visible@m">
@@ -73,14 +73,14 @@
     </header>
     <main class="site-main">
         <section class="home-top-wrap home-top">
-            <div class="uk-position-center top-leaf"><img src="img/leaf.svg"></div>
+            <div class="uk-position-center top-leaf uk-animation-fade"><img src="img/leaf.svg"></div>
             <div class="uk-grid-collapse uk-child-width-expand@s uk-text-center uk-margin-large-top" uk-grid>
-                <div class="home-top-left uk-inline">
+                <div class="home-top-left uk-inline" uk-scrollspy="cls: custom-animation-left; repeat: true">
                     <div class="welcome uk-position-center-right">
                         <h1>Welcome.</h1>
                     </div>
                 </div>
-                <div class="home-top-right uk-inline">
+                <div class="home-top-right uk-inline" uk-scrollspy="cls: custom-animation-right; repeat: true">
                     <div class="uk-position-center-left">
                         <h1>We bring<br>your ideas to life.</h1>
                     </div>
@@ -90,10 +90,9 @@
                 </div>
             </div>
         </section>
-
         <section class="home-section-2">
             <div class="uk-container">
-                <div class="uk-child-width-1-2" uk-grid>
+                <div class="uk-child-width-1-2@m uk-child-width-1-2@s uk-transform-origin-top-center" uk-grid uk-scrollspy="cls: uk-animation-scale-up; repeat: true">
                     <div class="create">
                         <h3>Freedom to create.</h3>
                         <p>Qualit, safety and exclusively...</p>
@@ -108,7 +107,7 @@
             <div class="uk-container home-2-section">
                 <div class="uk-width-2xlarge uk-margin home-top2-four-icons">
                     <div class="uk-grid-divider uk-grid-collapse for-shadow" uk-grid>
-                        <div class="uk-width-1-2@m uk-width-1-1@s home-top2-four-icon-divider">
+                        <div class="uk-width-1-2@m uk-width-1-1@s for-border home-top2-four-icon-divider@m">
                             <div class="uk-padding" uk-grid>
                                 <div class="uk-width-auto">
                                     <img src="/img/quality.svg" alt="Image description">
@@ -118,7 +117,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="uk-width-1-2@m uk-width-1-1@s home-top2-four-icon-divider">
+                        <div class="uk-width-1-2@m uk-width-1-1@s home-top2-four-icon-divider@m for-border">
                             <div class="uk-padding" uk-grid>
                                 <div class="uk-width-auto">
                                     <img src="/img/license.svg" alt="Image description" width="61" height="66">
@@ -157,44 +156,44 @@
                 </div>
             </div>
         </section>
-            <!--Home-section-3-->
-            <section class="home-section-3">
-                <div class="uk-container">
-                    <div class="home-3-upper-content uk-text-center uk-margin">
-                        <h3>Our Products</h3>
-                        <p>World-class platforms, empowering creative community...</p>
-                    </div>
-                    <div class="uk-grid-small uk-child-width-1-2@m uk-child-width-1-1@s uk-flex-center uk-text-center" uk-grid uk-height-match="target: > div > .uk-card">
-                        <div class="full-card">
-                            <div class="shadow-card uk-card uk-card-default uk-card-body uk-text-center uk-card-square">
-                                <img src="/img/templyStock.svg">
-                                <p>Find the perfect asset for the world-class marketplace reoifhoir</p>
-                                <a href="#" class="choose-button uk-button uk-button-default">Browse Now <i class="fa fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="full-card">
-                            <div class="shadow-card uk-card uk-card-default uk-card-body uk-text-center uk-card-square">
-                                <img src="/img/freepikerLogo.svg">
-                                <p>Brows free design assets and Subscribe unlimited premium downloads</p>
-                                <a href="#" class="choose-button uk-button uk-button-default">Browse Now <i class="fa fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="full-card">
-                            <div class="shadow-card uk-card uk-card-default uk-card-body uk-text-center">
-                                <img src="/img/absolutePlugins.svg">
-                                <p>Powerful Widgets and Pre-Built Layout for Elementor</p>
-                                <a href="#" class="choose-button uk-button uk-button-default">Browse Now <i class="fa fa-arrow-right"></i></a>   
-                            </div>
-                        </div>
-                        <div class="full-card">
-                            <div class="shadow-card uk-card uk-card-default uk-card-body uk-text-center">
-                                <img src="/img/creatiyaLogo.svg">
-                                <p>Subscribe unlimited downloads for quality design assets</p>
-                                <a href="#" class="choose-button uk-button uk-button-default">Browse Now <i class="fa fa-arrow-right"></i></a>
-                            </div>
+        <!--Home-section-3-->
+        <section class="home-section-3">
+            <div class="uk-container">
+                <div class="home-3-upper-content uk-text-center uk-margin">
+                    <h3>Our Products</h3>
+                    <p>World-class platforms, empowering creative community...</p>
+                </div>
+                <div class="uk-grid-small uk-child-width-1-2@m uk-child-width-1-1@s uk-flex-center uk-text-center" uk-grid uk-height-match="target: > div > .uk-card">
+                    <div class="full-card">
+                        <div class="shadow-card uk-card uk-card-default uk-card-body uk-text-center uk-card-square">
+                            <img src="/img/templyStock.svg">
+                            <p>Find the perfect asset for the world-class marketplace reoifhoir</p>
+                            <a href="#" class="choose-button uk-button uk-button-default">Browse Now <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
-                </div>    
+                    <div class="full-card">
+                        <div class="shadow-card uk-card uk-card-default uk-card-body uk-text-center uk-card-square">
+                            <img src="/img/freepikerLogo.svg">
+                            <p>Brows free design assets and Subscribe unlimited premium downloads</p>
+                            <a href="#" class="choose-button uk-button uk-button-default">Browse Now <i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="full-card">
+                        <div class="shadow-card uk-card uk-card-default uk-card-body uk-text-center">
+                            <img src="/img/absolutePlugins.svg">
+                            <p>Powerful Widgets and Pre-Built Layout for Elementor</p>
+                            <a href="#" class="choose-button uk-button uk-button-default">Browse Now <i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="full-card">
+                        <div class="shadow-card uk-card uk-card-default uk-card-body uk-text-center">
+                            <img src="/img/creatiyaLogo.svg">
+                            <p>Subscribe unlimited downloads for quality design assets</p>
+                            <a href="#" class="choose-button uk-button uk-button-default">Browse Now <i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!--Award section-->
@@ -204,7 +203,7 @@
                     <h3>Our Awards</h3>
                     <p>Industry experienced and multiple awards winner</p>
                 </div>
-                <div class="uk-grid-small uk-child-width-1-5@m uk-child-width-1-2@s uk-flex-center uk-text-center" uk-grid>
+                <div class="uk-grid-small uk-child-width-1-5@m uk-child-width-1-2@s uk-flex-center uk-text-center" uk-grid uk-grid uk-scrollspy="cls: uk-animation-scale-up; repeat: true">
                     <div>
                         <img src="/img/award1.svg" alt="Our awards">
                     </div>
@@ -224,13 +223,72 @@
 
             </div>
         </section>
+        <!--Gallary section-->
 
+        <section class="gallary-section">
+            <div class="gallery-upper-content uk-text-center uk-margin">
+                <h3>Only high-quality.</h3>
+                <p>Products reviewed by our creative passionate Staff.</p>
+            </div>
+            <div class="gallery-photo uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true; autoplay-interval: 2000">
+                <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m uk-grid">
+                    <li>
+                        <div class="uk-panel uk-margin-small">
+                            <img src="img/slider/slider1.jpg" alt="gallery-photo">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-panel uk-margin-small">
+                            <img src="img/slider/slider2.jpg" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-panel uk-margin-small">
+                            <img src="img/slider/slider3.jpg" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-panel uk-margin-small">
+                            <img src="img/slider/slider4.jpg" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-panel uk-margin-small">
+                            <img src="img/slider/slider5.jpg" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-panel uk-margin-small">
+                            <img src="img/slider/slider6.jpg" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-panel uk-margin-small">
+                            <img src="img/slider/slider7.jpg" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-panel uk-margin-small">
+                            <img src="img/slider/slider8.jpg" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-panel uk-margin-small">
+                            <img src="img/slider/slider9.jpg" alt="">
+                        </div>
+                    </li>
+
+                </ul>
+
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slider-item="next"></a>
+
+            </div>
+        </section>
     </main>
-
     <footer class="footer">
         <p class="uk-heading-line uk-text-center uk-padding"><span>Copyright &copy;2023,powered by <img src="/img/footerLogo.svg"width="132" height="19">, United States</span></p>
     </footer>
-    </div>
 
 </body>
 

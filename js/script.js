@@ -6,3 +6,6 @@
         });
  });
 
+ UIkit.scrollspy("#animation-section", {
+    cls: "uk-animation-fade",
+    repeat: true,})
